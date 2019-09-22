@@ -14,8 +14,10 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi(){
   let x = preventRefreshOnSubmit();
 
-  let element = document.createElement('li');
+  let li = document.createElement('li');
 
-  document.getElementsByClassName(".employee-list").innerHTML = x;
+  li.innerHTML = x;
+
+  ul.appendChild(li);
 
 }
