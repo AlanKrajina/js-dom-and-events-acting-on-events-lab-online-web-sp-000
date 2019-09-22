@@ -19,3 +19,7 @@ function addNewElementAsLi(){
 
   return ul.append(li);
 }
+
+function addNewLiOnClick(){
+  
+}
