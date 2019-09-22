@@ -25,8 +25,6 @@ function addNewLiOnClick(){
   let x = retrieveEmployeeInformation();
   let li = document.querySelector('ul.employee-list li');
 
-  input.addEventListener('onclick', function(e) {
-    li.innerHTML = x;
+  li.addEventListener('click', retrieveEmployeeInformation, false);
 
-  });
 }
