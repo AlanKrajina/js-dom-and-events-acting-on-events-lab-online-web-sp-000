@@ -18,6 +18,6 @@ function addNewElementAsLi(){
 
   li.innerHTML = x;
 
-  return  $(".employee-list").append(li);
+  return  $("ul.employee-list").append(li);
 
 }
