@@ -23,8 +23,7 @@ function addNewElementAsLi(){
 
 function addNewLiOnClick(){
   let x = retrieveEmployeeInformation();
-  let ul = document.querySelector("ul");
-  let li = document.createElement('li');
+  let li = document.querySelector('ul.employee-list li');
 
   input.addEventListener('onclick', function(e) {
     li.innerHTML = x;
