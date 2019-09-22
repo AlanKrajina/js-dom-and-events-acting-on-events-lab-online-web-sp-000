@@ -43,11 +43,8 @@ function clearEmployeeListOnLinkClick(){
 
   let link = document.getElementsByTagName("a");
 
-
-
-$(link).click(function() {
-  $(".employee-list").empty();
-});
-
+  $(link).click(function() {
+    $(".employee-list").empty();
+  });
 
 }
