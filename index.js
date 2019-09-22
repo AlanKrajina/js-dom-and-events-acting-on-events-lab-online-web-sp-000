@@ -41,15 +41,13 @@ submit.addEventListener('click', function(e) {
 
 function clearEmployeeListOnLinkClick(){
 
-  let link = document.getElementsByTagName("a");
+//  let link = document.getElementsByTagName("a");
 
-//  link.addEventListener('click', function() {
-//    return document.getElementById("myForm").elements[0].value = "";
-//    });
 
-$(link).click(function() {
-  $(".employee-list").empty();
-});
+
+//$(link).click(function() {
+//  $(".employee-list").empty();
+//});
 
 
 }
