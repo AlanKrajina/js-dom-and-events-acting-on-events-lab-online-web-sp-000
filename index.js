@@ -18,12 +18,13 @@ function addNewElementAsLi(){
   li.innerHTML = x;
 
   return ul.append(li);
+  // creates "li" with input content
 }
 
 function addNewLiOnClick(){
   let x =  addNewElementAsLi();
 
-  x.addEventListener('keydown', function(e) {
+  x.addEventListener('onclick', function(e) {
     console.log(e.which);
   });
 }
