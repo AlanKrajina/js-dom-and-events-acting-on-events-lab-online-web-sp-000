@@ -22,7 +22,7 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  const input = document.querySelector('li');
+  const input = document.querySelector('ul.employee-list li');
 
   input.addEventListener('onclick', function(e) {
     console.log(e.which);
