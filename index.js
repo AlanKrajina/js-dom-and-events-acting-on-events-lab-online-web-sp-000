@@ -18,7 +18,7 @@ function addNewElementAsLi(){
 
   li.innerHTML = x;
 
-   ul.append(li);
+  ul.append(li);
   // creates "li" with input content
 }
 
@@ -30,14 +30,11 @@ function addNewLiOnClick(){
 //  });
 let input = document.querySelector('input');
 
-
 let submit = document.querySelector('input[type="submit"]');
 submit.addEventListener('click', function(e) {
   addNewElementAsLi();
   input.value = '';
 });
-
-
 }
 
 
