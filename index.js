@@ -26,3 +26,8 @@ function addNewLiOnClick(){
 
 //  document.getElementById("myForm").elements[0].value = "";
 }
+
+
+function clearEmployeeListOnLinkClick(){
+  document.getElementById("myForm").elements[0].value = "";
+}
