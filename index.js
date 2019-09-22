@@ -22,7 +22,8 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  const input = addNewElementAsLi();
+  let ul = document.querySelector("ul");
+  let li = document.createElement('li');
 
   input.addEventListener('onclick', function(e) {
 
