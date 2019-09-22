@@ -21,6 +21,7 @@ function addNewElementAsLi(){
    ul.append(li);
   // creates "li" with input content
 }
+let input = document.querySelector('input');
 
 function addNewLiOnClick(){
 //  document.body.addEventListener('click', addNewElementAsLi)
