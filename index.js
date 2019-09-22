@@ -26,7 +26,7 @@ function addNewLiOnClick(){
   let li = document.querySelector('ul.employee-list li');
 
   li.addEventListener('onclick', retrieveEmployeeInformation() {
-    
+
   };
 
 }
