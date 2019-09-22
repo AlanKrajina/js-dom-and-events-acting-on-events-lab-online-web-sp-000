@@ -22,9 +22,6 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-//  let x = retrieveEmployeeInformation();
-//  let li = document.querySelector('ul.employee-list li');
-
   document.body.addEventListener('click', addNewElementAsLi)
 
 }
