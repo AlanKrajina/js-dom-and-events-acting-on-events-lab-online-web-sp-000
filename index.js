@@ -13,11 +13,11 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi(){
   let x = retrieveEmployeeInformation();
-
+  let ul = querySelector("ul");
   let li = document.createElement('li');
 
   li.innerHTML = x;
 
-  return  ul.append(li);
+  return  $(ul).append(li);
 
 }
