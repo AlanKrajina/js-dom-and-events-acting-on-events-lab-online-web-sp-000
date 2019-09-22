@@ -7,8 +7,7 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
-  serialize(document.forms[0]);
 
-  return $("form").serializeArray()
+  return document.getElementById("myForm").elements[0].value
 
 }
