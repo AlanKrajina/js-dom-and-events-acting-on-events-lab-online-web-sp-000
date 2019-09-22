@@ -23,4 +23,7 @@ function addNewElementAsLi(){
 function addNewLiOnClick(){
   let x =  addNewElementAsLi();
 
+  addEventListener('keydown', function(e) {
+    console.log(e.which);
+  });
 }
