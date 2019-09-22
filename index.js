@@ -38,8 +38,7 @@ function clearEmployeeListOnLinkClick(){
   let link = document.getElementsByTagName("a");
 
   link.addEventListener('click', function() {
-    return x = "";
+    return document.getElementById("myForm").elements[0].value = "";
     });
 
-  document.getElementById("myForm").elements[0].value = "";
 }
