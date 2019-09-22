@@ -22,7 +22,7 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-//  document.body.addEventListener('click', addNewElementAsLi)
+  document.body.addEventListener('click', addNewElementAsLi)
 
-  document.getElementById("myForm").elements[0].value = "";
+//  document.getElementById("myForm").elements[0].value = "";
 }
