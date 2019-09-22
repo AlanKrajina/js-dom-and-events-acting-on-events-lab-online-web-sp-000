@@ -23,11 +23,18 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  document.body.addEventListener('click', addNewElementAsLi)
+//  document.body.addEventListener('click', addNewElementAsLi)
 
-  document.body.addEventListener('click',  function(){
-    document.getElementById("myForm").elements[0].value=""
-  });
+//  document.body.addEventListener('click',  function(){
+//    document.getElementById("myForm").elements[0].value=""
+//  });
+let submit = document.querySelector('input[type="submit"]');
+submit.addEventListener('click', function(e) {
+  addNewElementAsLi();
+  input.value = '';
+});
+
+
 }
 
 
