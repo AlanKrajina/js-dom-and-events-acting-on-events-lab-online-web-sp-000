@@ -18,7 +18,7 @@ function addNewElementAsLi(){
 
   li.innerHTML = x;
 
-  return ul.append(li);
+   ul.append(li);
   // creates "li" with input content
 }
 
