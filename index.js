@@ -22,9 +22,9 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
-  let x =  addNewElementAsLi();
+  const input = document.querySelector('li');
 
-  x.addEventListener('onclick', function(e) {
+  input.addEventListener('onclick', function(e) {
     console.log(e.which);
   });
 }
