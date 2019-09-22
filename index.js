@@ -21,5 +21,6 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick(){
+  let x =  addNewElementAsLi();
 
 }
