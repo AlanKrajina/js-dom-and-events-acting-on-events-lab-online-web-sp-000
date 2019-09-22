@@ -34,8 +34,13 @@ function clearEmployeeListOnLinkClick(){
 
   let link = document.getElementsByTagName("a");
 
-  link.addEventListener('click', function() {
-    return document.getElementById("myForm").elements[0].value = "";
-    });
+//  link.addEventListener('click', function() {
+//    return document.getElementById("myForm").elements[0].value = "";
+//    });
+
+$(link).click(function() {
+  $(".employee-list").empty();
+});
+
 
 }
