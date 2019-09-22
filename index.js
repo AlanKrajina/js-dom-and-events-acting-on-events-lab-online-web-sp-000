@@ -13,6 +13,9 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi(){
   let x = preventRefreshOnSubmit();
+
+  let element = document.createElement('li');
+
   document.getElementsByClassName(".employee-list").innerHTML = x;
 
 }
