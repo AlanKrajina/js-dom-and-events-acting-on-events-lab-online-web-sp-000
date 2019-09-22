@@ -12,7 +12,7 @@ function retrieveEmployeeInformation() {
 
 
 function addNewElementAsLi(){
-  let x = preventRefreshOnSubmit();
+  let x = retrieveEmployeeInformation();
 
   let li = document.createElement('li');
 
