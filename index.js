@@ -34,5 +34,12 @@ function addNewLiOnClick(){
 
 
 function clearEmployeeListOnLinkClick(){
+
+  let link = document.getElementsByTagName("a");
+
+  link.addEventListener('click', function() {
+    return x = "";
+    });
+   
   document.getElementById("myForm").elements[0].value = "";
 }
