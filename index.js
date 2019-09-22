@@ -12,6 +12,7 @@ function retrieveEmployeeInformation() {
 
 
 function addNewElementAsLi(){
-
+  let x = preventRefreshOnSubmit();
+  document.getElementsByClassName(".employee-list").innerHTML = x;
 
 }
