@@ -40,6 +40,6 @@ function clearEmployeeListOnLinkClick(){
   link.addEventListener('click', function() {
     return x = "";
     });
-   
+
   document.getElementById("myForm").elements[0].value = "";
 }
