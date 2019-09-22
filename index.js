@@ -21,7 +21,6 @@ function addNewElementAsLi(){
    ul.append(li);
   // creates "li" with input content
 }
-let input = document.querySelector('input');
 
 function addNewLiOnClick(){
 //  document.body.addEventListener('click', addNewElementAsLi)
@@ -29,6 +28,9 @@ function addNewLiOnClick(){
 //  document.body.addEventListener('click',  function(){
 //    document.getElementById("myForm").elements[0].value=""
 //  });
+let input = document.querySelector('input');
+
+
 let submit = document.querySelector('input[type="submit"]');
 submit.addEventListener('click', function(e) {
   addNewElementAsLi();
