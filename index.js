@@ -10,7 +10,6 @@ function retrieveEmployeeInformation() {
   return document.getElementById("myForm").elements[0].value
 }
 
-
 function addNewElementAsLi(){
   let x = retrieveEmployeeInformation();
   let ul = document.querySelector("ul");
@@ -18,6 +17,5 @@ function addNewElementAsLi(){
 
   li.innerHTML = x;
 
-  return  ul.append(li);
-
+  return ul.append(li);
 }
