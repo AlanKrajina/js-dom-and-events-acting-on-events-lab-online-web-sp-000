@@ -27,7 +27,7 @@ function addNewLiOnClick(){
   let x = document.getElementById("myForm").elements[0].value
 
   document.body.addEventListener('click', function() {
-  x = "";
+  return x = "";
   });
 
 }
